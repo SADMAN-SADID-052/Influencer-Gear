@@ -21,11 +21,11 @@ body{
 .btn-primary
 {
     color: rgb(255, 255, 255);
-    font-family: Poppins;
-    font-size: 12px;
+    font-size: 1.1rem;
     font-weight: 700;
     border-radius:30px;
-    padding: 20px;
+
+    padding: 20px 40px;
     background: rgb(224, 44, 109);
     border: 0;
     cursor: pointer;
@@ -36,7 +36,7 @@ body{
 
 color: rgb(120, 120, 133);
 font-family: Inter;
-font-size: 10px;
+font-size: 0.9rem;
 font-weight: 700;
 line-height: 1.5;
 letter-spacing: 1.8%;
@@ -74,4 +74,50 @@ letter-spacing: 1.8%;
     color: rgb(58, 58, 58);
     font-size: 14px;
     font-weight: 700;
+}
+
+/* bannar section start here */
+
+
+.bannar
+{
+    margin-top: 100px;
+}
+
+.bannar-container
+{
+    display: flex;
+    justify-content: space-between;
+}
+.bannar-photo
+{
+    height: 300px;
+    width: 300px;
+    background-image:url('file:///F:/P%20Hero/Batch%2010/Milestone%202/Module-11/influencer-gear-main/Code/images/Circle%20design.svg');
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+
+.bannar-photo>img{
+    height: 100%;
+    width: 100%;
+}
+
+.bannar-text>h1{
+color: rgb(58, 58, 58);
+font-size: 3rem;
+font-weight: 800;
+
+}
+
+.bannar-btn>button>i{
+
+    margin-left: 10px;
+}
+
+.bannar-btn
+{
+    margin-top: 30px;
 }
