@@ -101,7 +101,7 @@ letter-spacing: 1.8%;
 {
     height: 300px;
     width: 300px;
-    background-image:url('file:///F:/P%20Hero/Batch%2010/Milestone%202/Module-11/influencer-gear-main/Code/images/Circle%20design.svg');
+    background-image:url('../images/Circle\ design.svg');
     background-size:cover;
     background-position: center;
     background-repeat: no-repeat;
