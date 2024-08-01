@@ -187,6 +187,23 @@ font-weight: 400;
 
 }
 
-/* .Cpopular>h4,.Cpopular>h3,.Cpopular>p{
-    padding: 30px;
-} */
+
+/*  */
+
+
+.one-place
+{
+    margin-top: 100px;
+}
+.one-place-container
+{
+    display: flex;
+    justify-content: space-around;
+}
+.place-text-part
+{
+color: rgb(10, 8, 38);
+font-size: 19px;
+font-weight: 700;
+line-height: 60px;
+}
