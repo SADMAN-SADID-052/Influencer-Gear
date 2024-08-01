@@ -43,6 +43,11 @@ letter-spacing: 1.8%;
 
 }
 
+.star-color{
+
+    color:rgb(251, 130, 0);
+}
+
 /* header/nav section start here */
 
 .header-all
@@ -142,3 +147,46 @@ font-weight: 800;
     gap:50px;
     padding: 30px;
 }
+
+/* Popular collection design */
+.collection-container
+{
+    display: grid;
+    grid-template-columns: repeat(3,320px);
+    gap: 30px;
+    justify-content: center;
+}
+
+
+.Cpopular{
+
+border-radius: 5px;
+box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+background: rgb(255, 255, 255);
+padding: 20px;
+
+}
+
+
+
+.Cpopular>img{
+    width: 100%;
+}
+
+.Cpopular>h3
+{
+color: rgb(24, 25, 31);
+font-size: 30px;
+font-weight: 500;
+}
+
+.Cpopular>h4{
+color: rgba(0, 0, 0, 0.87);
+font-size: 24px;
+font-weight: 400;
+
+}
+
+/* .Cpopular>h4,.Cpopular>h3,.Cpopular>p{
+    padding: 30px;
+} */
